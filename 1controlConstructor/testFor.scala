@@ -5,7 +5,7 @@ object HelloFor{
 		
 		println("for i <- 1 to 5 by 2")
 		for(i <- 1 to 5 by 2) println(i)
-		
+	//if 守卫式	
 		println("for(i<- 1 to 10 if i%2==0)")
 		for(i<- 1 to 10 if i%2==0)
 		  println(i)
